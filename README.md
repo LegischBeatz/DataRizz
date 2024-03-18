@@ -1,4 +1,10 @@
-# Da
+# Data Rizzer
+
+## Dashboard Overview
+
+Below is a screenshot of the Stock Analysis Dashboard, illustrating the user interface and features:
+
+![Dashboard Screenshot](screenshot_DataRizzerv1.png)
 
 This document serves as a comprehensive guide for understanding and utilizing the Stock Analysis Dashboard developed using Dash, a Python framework for building analytical web applications. The dashboard provides real-time stock data visualization and analysis, including price trends and Relative Strength Index (RSI) calculations.
 
