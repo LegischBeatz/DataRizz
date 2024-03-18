@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Chart</title>
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        #chart_div {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: auto;
+            padding: 20px;
+            width: 80%;
+        }
+        .chart-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stock Price Chart</h1>
+    <div class="chart-container">
+        <div id="chart_div">
+            <!-- Dynamically rendered chart will go here -->
+            {{ chart_html | safe }}
+        </div>
+    </div>
+    <!-- Optional JavaScript to enhance functionality -->
+    <script>
+        // You can add JavaScript here to manipulate your chart or add more interactivity
+    </script>
+</body>
+</html>
+
